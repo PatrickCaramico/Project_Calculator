@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: red (to right, #233329, red);
+}
+
+/* Calculator Structure */
+.grid-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+/* Standardization of button friction*/
+.grid-container > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid #383636;
+  outline: none;
+  background-color: #111;
+  color: #eee;
+}
+
+/* Operator color defaults */
+.grid-container > .operator {
+  background-color: red;
+}
+
+/* Occupies 2 grid columns */
+.span-two {
+  grid-column: span 2;
+}
+
+/* Calculation display */
+.grid-container > .output {
+  grid-column: 1/ -1;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* Definition of display colors and font */
+.grid-container > .output > .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+/* Button color and font definition */
+.grid-container > .output > .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}

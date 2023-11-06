@@ -1,0 +1,113 @@
+"Design in Drawing"
+Button Number 1
+Button Number 2
+Button Number 3
+Button Number 4
+Button Number 5
+Button Number 6
+Button Number 7
+Button Number 8
+Button Number 9
+Operator Class /
+Operator Class +
+Operator Class -
+Operator Class \
+Operator Class =
+Class AC
+Class DEL
+font calculator
+Put a red color
+Put a black color
+
+"Functions in HTML"
+HTML application, calculator body
+Like, Project title, link to font, and operators and buttons,
+Calculator layout in HTML,
+Create a div for (grid-container) and (output) to store the data in the display,
+create a div of (Previous-operand) cell typed earlier,
+Create a div of (current-operand) cell types recent,
+Create the Buttons of both AC and Del, and the operators too,
+Get a model of the button calculator
+Create a Class to style later in CSS, this Class will be used to use 2 columnar buttons "AC" and "."
+After this process, open a project development server, where the Layout will be presented in real time (Live Server)
+
+"Functions in CSS"
+Create a selector to select in HTML, elements such as Buttons, operators and div's
+Create a "Box-sizing" to make the width of our Buttons more precise,
+Create a "Font-family" font used in the HTML application and don't have to put another font.
+Create a "font-weight" leave the font format at "Bold" (bold),
+Create a "background" to select the background,
+
+"Calculator Structure"
+Soon after, styling the "grid-container",
+Create a display in "grid",
+Create a "justify-content" and leave it in the "Center",
+Create an "align-conten" and leave it in column format,
+Create a "min-heigt" and leave it at "100vh" leaving it centered on the page,
+Create a "grid-template-columns" forming 4 columnar with "100px",
+Create a "grid-template-rowns" with 5 lines of "100px" as per the drawing,
+Create a "minmax" inside the "grid-template-rowns" to increase the display limit,
+
+"Sponsorship of button friction"
+Create another "grid-container" for the "butons"
+Create a "Cursor pointer"
+Create a "font-size " in " 2rem";
+Create a "Border" with "1px" in solid with the color in "#383636"
+Create an "outline" in "none",
+Create a "background-color" on "#111",
+Create a "color" in "#eee",
+
+"Operators color defaults "
+Create a "grid-container" for the "operators",
+Put a "red" color,
+occupy 2 grid spaces with "span-two" spaced 2,
+
+"Calculation display display"
+Create a "grid-container " for "output",
+Create a "grid-colum" of "1/ -1",
+Create a "background-color" on "#222",
+Create a "Flex display",
+create a "flex-directio" with "column"
+Create an "align-items with "flex-end"
+Create a "justify-content" in "space-around",
+Create a "padding" in "10px",
+Create a "word-wrap" with "break-word",
+Create a "word-break" with "break-all",
+organize everything
+
+"Setting the display colors and font"
+Create a "grid-container" for "output" and "PreviousOperand"
+Create a "Color" in "rgba(255, 255, 255, 0.75)
+And create a "font-size" of "1.5 rem"
+
+"Define the colors and font of the buttons"
+Create a "grid-container" for "output" and "CurrentOperand"
+Create a "Color" in "White"
+And create a "font-size" of "2.5 rem"
+
+"button functions"
+Create a "const" for "numberButtom"
+Classify the Number and operation and create a Class and an attribute like "data." in each "number","Ac" and "Del"
+Create a "document.queryselectorAll" to select all buttons
+Create a selector for these "NumberButtom"
+Create an "equals" for the "="
+Create a selector for "Previous-Operand and CurrendOperand"
+Right after creating a const for each element such as "NumberButtom, OperationButtons, equalsButton, deleteButton, previousOperand,CurrentOperand and AllClear Button"
+
+"Elements"
+Create a class for Calculator
+In this class create a "Constructor" to receive the data of "previousOperand and CurrentOperand" as textelement
+with this in each element
+soon after create
+r a "Clear" to clear the elements of "CurrentOperand, previousOperand and operation" leaving all as "undefined"
+Create an "appendNumber " with the "element" "number" for each click to place the number being clicked on the numeric keypad or in the operation.
+Create an "updateDisplay" with the previousOperandTextElement.innerText, CurrendOperandTextElement.innerText
+Create a function to click operators
+With "ChooseOperation " with element "operation "
+Create a "String" to show the operation signal in CurrentOperand or previousOperand
+Create an If with previousOperand if it is different or equal
+if you have to do the calculation, using the "calculate" function
+Create a function with previousOperand with operations (+ - * / ) with CurrentOperand
+Convert to Float with previousOperand and with CurrendOperand
+Create an action for each operation, with "Smitch"
+Create a result with the result of the operation of each action
