@@ -47,8 +47,6 @@
 <p>Code Js</p>
 <img align="center" src="Calc_images_V1/JS.png" width="900px"/>
 
-<br>
-
 ## process
 
 ### designed
